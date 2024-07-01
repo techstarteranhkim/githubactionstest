@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: HW
-      - run: echo "Hallo Welt!"
+        run: echo "Hallo Welt!"

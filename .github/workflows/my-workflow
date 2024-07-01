@@ -1,0 +1,8 @@
+name: Aufgabe3
+on: [push]
+jobs:
+  Hallo-Welt:
+    runs-on: ubuntu-latest
+    steps:
+      - name: HW
+      - run: echo "Hallo Welt!"

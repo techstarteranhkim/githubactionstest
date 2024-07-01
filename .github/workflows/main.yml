@@ -16,5 +16,4 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - name: farewell
-      - run: echo "Bye bye!"
-
+        run: echo "Bye bye!"

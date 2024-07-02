@@ -1,0 +1,23 @@
+name: Aufgabe3
+on: [push]
+jobs:
+  Hallo-Welt:
+    runs-on: ubuntu-latest
+    steps:
+      - name: HW
+        run: echo "Hallo Welt!"
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: HW
+        run: echo "Hallo von lint & from ${GITHUB_REF##*/}"
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: HW
+        run: echo "Hallo von test & from ${GITHUB_REF##*/}"
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: HW
+        run: echo "Hallo von deploy & from ${GITHUB_REF##*/}"
